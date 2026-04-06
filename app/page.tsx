@@ -1,22 +1,20 @@
 import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/hero"
-import { Services } from "@/components/services"
-import { ClientResults } from "@/components/client-results"
-import { QuickMathSection } from "@/components/quick-math"
-import { Results } from "@/components/results"
-import { Guarantee } from "@/components/guarantee"
+import { WhyChooseUs } from "@/components/why-choose-us"
+import { Numbers } from "@/components/numbers"
+import { Testimonials } from "@/components/testimonials"
+import { FAQ } from "@/components/faq"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white selection:bg-cyan-500/30">
+    <main className="min-h-screen">
       <Navbar />
       <Hero />
-      <Services />
-      <ClientResults />
-      <QuickMathSection />
-      <Results />
-      <Guarantee />
+      <WhyChooseUs />
+      <Numbers />
+      <Testimonials />
+      <FAQ />
       <Footer />
     </main>
   )
